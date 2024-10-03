@@ -1,4 +1,4 @@
-# CRM frontend 
+# Dodo MAX CRM frontend 
 # Vue 3 + TypeScript + Vite + Element Plus
 
 ## Production Link
@@ -9,6 +9,8 @@ npm install
 
 ## Run & deploy
 npm run dev
+
 npm run build
 
+## Reference
 https://github.com/mutolee/vel-admin-web
