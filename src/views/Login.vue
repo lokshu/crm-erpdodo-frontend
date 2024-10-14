@@ -38,10 +38,11 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, ref, onMounted } from 'vue';
+import { defineComponent, ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useUserInfoStore } from "@/stores/data/userInfoStore";
 import { ElMessage } from "element-plus";
+// @ts-ignore
 import httpUtil from "@/utils/HttpService";
 // @ts-ignore
 import loginUtil from "@/utils/LoginUtil";

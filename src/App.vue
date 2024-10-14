@@ -6,7 +6,9 @@
 
 <script lang="ts">
 import { defineComponent, onMounted } from 'vue'
+// @ts-ignore
 import apiService from "@/utils/ApiService";
+// @ts-ignore
 import { useUserInfoStore } from "@/stores/data/userInfoStore";
 
 export default defineComponent({
